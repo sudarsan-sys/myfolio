@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: black; /* Black background */
+            color: white; /* White text by default */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column; /* Make sure content is vertically aligned */
+        }
+
+        .card {
+            background-color: black; /* Black card background */
+            color: white; /* White text */
+            border: 2px solid white; /* White border */
+            border-radius: 8px; /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s, background-color 0.2s, color 0.2s, box-shadow 0.2s;
+            padding: 20px;
+            max-width: 600px;
+            text-align: center;
+        }
+
+        .card:hover {
+            background-color: #00C800; /* Hacking green */
+            color: black; /* Black text */
+            transform: scale(1.04); /* Slight zoom effect on hover */
+            box-shadow: 0 6px 12px #00C800; /* Hacking green shadow */
+        }
+
+        .card h3 {
+            margin: 10px 0 15px;
+            font-weight: 600;
+        }
+
+        .card p {
+            margin: 0;
+            font-weight: 400;
+            line-height: 1.5;
+        }
+
+        .download-cv-container {
+            margin-top: 20px; /* Space between the card and the button */
+            text-align: center;
+        }
+
+        .download-cv-button {
+            background-color: black; /* Black background */
+            color: white; /* White text */
+            border: 2px solid white; /* White border */
+            border-radius: 8px; /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s, background-color 0.2s, color 0.2s, box-shadow 0.2s;
+            padding: 10px 20px;
+            text-decoration: none; /* Remove underline from the link */
+        }
+
+        .download-cv-button:hover {
+            background-color: #00C800; /* Hacking green */
+            color: black; /* Black text */
+            transform: scale(1.05); /* Slight zoom effect on hover */
+            box-shadow: 0 6px 12px #00C800; /* Hacking green shadow */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h3>B.Tech in Computer Science and Engineering (CSE Core)</h3>
+        <p>
+            I am currently pursuing a B.Tech degree in Computer Science and Engineering (CSE Core).
+            The CSE Core curriculum provides a deep understanding of computer systems, programming, 
+            algorithms, and software development. It focuses on foundational computer science concepts 
+            while equipping students with problem-solving skills to tackle real-world technological challenges.
+            Core areas include data structures, operating systems, databases, and computer networks.
+            This degree prepares students for careers in software development, systems engineering, 
+            data analysis, and emerging fields such as AI and cybersecurity.
+        </p>
+    </div>
+
+    <div class="download-cv-container">
+        <a href="sudarsan_resume.pdf" class="download-cv-button" download>
+            Download CV
+        </a>
+    </div>
+</body>
+</html>
